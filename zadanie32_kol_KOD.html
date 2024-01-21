@@ -1,0 +1,40 @@
+<html>
+<head>
+ <script type="text/javascript">
+ function okno_zamknij_Kołtoński()
+ {
+ window.close()
+ }
+21
+ </script>
+</head>
+<body>
+ <form>
+ <textarea name="Kołtoński" cols="80" rows="25" disabled>
+    <html>
+ <head>
+ <script type="text/javascript">
+ function samochod(marka_k,model_k,rocznik_k)
+{
+this.marka=marka_k;
+this.model=model_k;
+this.rocznik=rocznik_k;
+}
+ samochod.prototype.wypisz_koltonski = function () 
+ {
+ alert(this.marka + ' ' + this.model+ ' ' + this.rocznik);
+ };
+var samochod1 = new klient('Mercedes', "270", "2003"); 
+var samochod2 = new klient('Audi', 'A5', '2017');
+samochod1.wypisz_koltonski(); 
+samochod2.wypisz_koltonski();
+ document.write("dostęp do właściwości"+"<br>");
+
+ document.write("samochód pierwszy"+" "+samochod1.marka+" "+samochod1.model+" "+samochod1.rocznik);
+ </script>
+ </head>
+<body>
+<br>
+ programowanie obiektowe
+</body>
+</html>
